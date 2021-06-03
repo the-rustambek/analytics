@@ -27,3 +27,49 @@
 .nav-email{
     color: #373742;
 }
+
+.header-info, .header-about{
+    background-color: #373742;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.green-span{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(35, 149, 35);
+}
+.yellow-span{
+    
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(255, 187, 0);
+}
+.header-text, .header-title{
+    color: white;
+}
+.header{
+    padding-top: 50px;
+}
+/* .heder-about{
+    height: 300px;
+    width: 400px;
+} */
+
+.year, .header-cost , .header-budget{
+    color: rgb(184, 184, 184)
+}
+.year-btn{
+    border: 2px solid #367E87;
+    color: #367E87;
+    border-radius: 5px;
+    background-color: #373742;
+}
+.header-about{
+    padding: 80px 50px;
+}
+.header-year{
+    /* margin-top:-00px */
+}
