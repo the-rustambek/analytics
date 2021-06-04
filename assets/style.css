@@ -128,12 +128,19 @@ color: #535A7C;
 .aside-link{
     margin: 20px 0px;
 }
+.span-circle{
+    width: 12px;
+    height: 12px;
+    background-color: #5361BB;
+    border-radius: 50%;
+}
 .aside-item{
     padding: 1px 30px;
 }
 .aside-item:hover{
     background-color: #1E1C2A;
 }
+
 .aside-info{
     color: white;
     font-size: 20px;
@@ -157,20 +164,43 @@ color: #E0E0E0;
     margin-left: 10px;
     margin-right: 10px;
 }
-.aside-input{
+.aside-btn{
     border-radius: 20px;
     background-color: #1E1C2A;
     border: 2px solid #272843;
     color: #5361BB;
     font-weight: 600;
-    padding: 5px 15px;
+    padding: 2px 45px;
+    padding-top: 5px;
+    width: 200px;
+    height: 50px;
     position: relative;
 }
 .aside-arrow{
     position: absolute;
-    top: 117%;
-    left: 16%;
+    top: 45%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+}
+
+.aside-footer--title{
+    color:  #E0E0E0;
+    font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 24px;
+
+}
+.aside-year, .aside-map{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height */
+    
+    
+    color: #535A7C;
 }
 .aside-footer{
-    color: #535A7C;
+    text-align: center;
 }
