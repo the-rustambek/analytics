@@ -1,3 +1,11 @@
+.aside{
+    
+    width: 18%;
+}
+.main{
+    width: 82%;
+}
+
 .navbar-button{
     background-color: #1E1C2A;
 }
@@ -7,9 +15,6 @@
 
 .nav-notification{
     width: 35px;
-}
-.nav-form{
-    
 }
 .nav-input{
     padding: 12px 20px;
@@ -42,6 +47,7 @@
 }
 .yellow-span{
     
+    
     width: 12px;
     height: 12px;
     border-radius: 50%;
@@ -53,23 +59,36 @@
 .header{
     padding-top: 50px;
 }
-/* .heder-about{
-    height: 300px;
-    width: 400px;
-} */
 
-.year, .header-cost , .header-budget{
-    color: rgb(184, 184, 184)
+
+.header-year--text, .header-text, .header-money,.header-budget{
+    color: rgb(187, 184, 184);
+text-align: center;
 }
-.year-btn{
+.header-btn{
     border: 2px solid #367E87;
     color: #367E87;
     border-radius: 5px;
     background-color: #373742;
 }
-.header-about{
-    padding: 80px 50px;
+.header-money{
+    font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 36px;
 }
-.header-year{
-    /* margin-top:-00px */
+.budget-btn{
+    background-color: #5A6ACE;
+    color: white;
+    border-radius: 6px;
+    border: 2px solid #373742;
+    padding: 5px 12px;
+    transition: 0.3s;
+}
+.budget-btn:hover{
+    background-color: white;
+    color: #5A6ACE;
+    border: 2px solid #5A6ACE;
+    font-weight: 600;
+    
 }
