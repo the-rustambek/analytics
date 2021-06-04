@@ -1,9 +1,9 @@
 .aside{
     
-    width: 18%;
+    width:20%;
 }
 .main{
-    width: 82%;
+    width: 80%;
 }
 
 .navbar-button{
@@ -91,4 +91,86 @@ line-height: 36px;
     border: 2px solid #5A6ACE;
     font-weight: 600;
     
+}
+
+.aside{
+    background-color: #252837;
+    /* padding: 22px; */
+    padding-top: 10px;
+}
+.main{
+    /* margin-top: 10px; */
+}
+.aside-title{
+    color: white;
+    font-weight: 600;
+}
+.aside-menu{
+    color: rgb(195, 191, 191);
+    text-align: center;
+}
+.aside-logo{
+    margin-bottom: 30px;
+}
+.aside-brand{
+    object-fit: cover;
+}
+.menu-name{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #535A7C;
+}
+.aside-link{
+    margin: 20px 0px;
+}
+.aside-item{
+    padding: 1px 30px;
+}
+.aside-item:hover{
+    background-color: #1E1C2A;
+}
+.aside-info{
+    color: white;
+    font-size: 20px;
+    width: 150px;
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+
+/* Gray 5 */
+
+color: #E0E0E0;
+}
+.aside-about{
+    text-align: justify;
+    padding: 15px;
+    border: 2px dashed #353B66;
+    border-radius: 5px;
+    background-color: #1E1C2A;
+    /* width: 200px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.aside-input{
+    border-radius: 20px;
+    background-color: #1E1C2A;
+    border: 2px solid #272843;
+    color: #5361BB;
+    font-weight: 600;
+    padding: 5px 15px;
+    position: relative;
+}
+.aside-arrow{
+    position: absolute;
+    top: 117%;
+    left: 16%;
+}
+.aside-footer{
+    color: #535A7C;
 }
