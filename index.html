@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analytics</title>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.6.0/Chart.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js">
     <link rel="stylesheet" href="./assets/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -141,7 +141,7 @@
                     <div class="col-lg-6 d-flex justify-content-between align-items-center">
 
                         <div class="header-info me-1">
-                            <div class="header-chart d-flex justify-content-between align-items-center">
+                            <div class="header-chart mb-3 d-flex justify-content-between align-items-center">
                                 <p class="header-title">
                                     Total Revenue
                                 </p>
@@ -162,9 +162,10 @@
                                 </ul>
 
                             </div>
-                            <div class="chart-picture">
-                                <img src="./assets/img/Chart (1).png" alt="" class="chart-img">
-                            </div>
+                            <canvas class="chart-picture" id="myChart">
+
+                                <!-- <img src="./assets/img/Chart (1).png" alt="" class="chart-img"> -->
+                            </canvas>
                         </div>
                         <div class="header-about d-flex justify-content-center align-items-center flex-column">
                             <div class="header-year  d-flex justify-content-center align-items-center ">
@@ -175,7 +176,7 @@
                                     2021 <img class="ms-2" src="./assets/img/pastga_dropdown.png" alt="">
                                 </button>
                             </div>
-                            <div class="header-cost mb-3">
+                            <div class="header-cost ">
                                 <p class="header-money">
                                     $27,074
                                 </p>
@@ -195,24 +196,24 @@
 
                     <div class="col-lg-6">
                         <div class="container">
-                        <div class="header-blok row">
-                            <div class="header-project col-lg-5 d-flex">
+                        <div class="header-blok g-3 row">
+                            <div class="header-project m-3  col-lg-5 d-flex">
                                 <div class="project-info">
-                                    <h4 class="project-title">
+                                    <p class="project-title">
                                         New Project
-                                    </h4>
-                                    <p>78</p>
-                                    <img src="./assets/img/yuqoriga_uchburchak.png" alt="">
+                                    </p>
+                                    <p class="seven-num mb-1">78</p>
+                                    <img  src="./assets/img/yuqoriga_uchburchak.png" alt="">
                                     <p class="header-foiz">
                                         0,5%
                                     </p>
                                 </div>
-                                <div class="project-picture">
-                                    <img class="circle-img" src="./assets/img/circle_chart.png" alt="">
+                                <div class="project-picture ms-3 mt-4">
+                                    <img class="circle-img " src="./assets/img/circle_chart.png" alt="">
                                 </div>
 
                             </div>
-                            <div class="header-project col-lg-5 d-flex">
+                            <div class="header-project m-3  col-lg-5 d-flex">
                                 <div class="project-info">
                                     <h4 class="project-title">
                                         Completion Project
@@ -228,7 +229,7 @@
 
                             </div>
 
-                            <!-- <div class="header-project col-lg-5 d-flex">
+                            <!-- <div class="header-project m-3  col-lg-5 d-flex">
                                 <div class="project-info">
                                    <div class="d-flex justify-content-between align-items-center"></div>
                                     <p>543</p>
@@ -241,7 +242,7 @@
                                 </div>
                             </div>
                             </div>
-                            <div class="header-project col-lg-5 d-flex">
+                            <div class="header-project m-3  col-lg-5 d-flex">
                                 <div class="project-info">
                                    <div class="d-flex justify-content-between align-items-center"></div>
                                     <p>672</p>

@@ -217,4 +217,19 @@ line-height: 24px;
 .header-project{
     background-color: #373742;
     border-radius: 5px;
+    padding:10px;
+}
+.circle-img{
+    width: 75px;
+}
+.seven-num{
+    color:#5A6ACE;
+    font-size: 30px;
+    font-weight: 600;
+}
+.header-foiz{
+    color: #40B2B7;
+}
+.project-title{
+    font-size: 14px;
 }
